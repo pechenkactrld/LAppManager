@@ -1,4 +1,4 @@
-# LappManager
+# LAppManager
 
 Minimal and modern application manager for Debian-based systems built with PyQt6 and Python.  
 The application provides a simple graphical interface for installing applications, managing local packages, and handling updates from multiple sources.
@@ -95,12 +95,14 @@ Features:
 
 ## Installation
 
-Go to GitHub releases and install .bin or .deb
+Download .bin or .deb from GitHub releases and install it
 
 OR
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/pechenkactrld/LAppManager.git
+cd LAppManager
+```
+and install it
