@@ -95,6 +95,10 @@ Features:
 
 ## Installation
 
+Go to GitHub releases and install .bin or .deb
+
+# OR
+
 Clone the repository:
 
 ```bash
