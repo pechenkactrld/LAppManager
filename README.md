@@ -3,7 +3,7 @@
 Minimal and modern application manager for Debian-based systems built with PyQt6 and Python.  
 The application provides a simple graphical interface for installing applications, managing local packages, and handling updates from multiple sources.
 
-> [!IMPORTANT]
+> [!NOTE]
 >
 > ### Beta testing
 >
@@ -20,7 +20,7 @@ The application provides a simple graphical interface for installing application
 
 ## Overview
 
-The application consists of three main tabs:
+The application consists of 3 main tabs:
 
 ### 1. Installation
 
@@ -52,7 +52,6 @@ Supported formats:
 Features:
 
 - Drag and drop
-- Automatic package detection
 - Guided installation workflow
 
 ---
@@ -85,12 +84,12 @@ Features:
 - Python 3.10+
 - PyQt6
 - Flatpak
-- APT package manager
 
-> [!NOTE]
+> [!IMPORTANT]
 > If you dont have flathub installed app will crash or will not work correctly with flatpak, you can install it with
 > ```bash
 > sudo apt install flatpak
+> flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ---
 
