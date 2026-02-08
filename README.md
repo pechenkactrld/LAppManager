@@ -3,7 +3,7 @@
 Minimal and modern application manager for Debian-based systems built with PyQt6 and Python.  
 The application provides a simple graphical interface for installing applications, managing local packages, and handling updates from multiple sources.
 
-> [!WARNING]
+> [!IMPORTANT]
 >
 > ### Beta testing
 >
