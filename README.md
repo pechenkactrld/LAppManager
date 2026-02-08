@@ -97,7 +97,7 @@ Features:
 
 Go to GitHub releases and install .bin or .deb
 
-# OR
+OR
 
 Clone the repository:
 
