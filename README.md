@@ -14,8 +14,7 @@ The application provides a simple graphical interface for installing application
 - Built with Python and PyQt6
 - Clean tab-based interface
 - Integration with APT and Flathub
-- Local package installation assistant
-- Update management with changelogs
+- Local package installation
 
 ---
 
@@ -30,10 +29,8 @@ Application discovery and installation from official repositories.
 Features:
 
 - Popular applications list
-- Application search
-- Application previews and descriptions
-- Application ID display
-- One-click installation
+- Search
+- Application previews, IDs and descriptions
 - Supported repositories:
   - APT
   - Flathub
@@ -42,7 +39,7 @@ Features:
 
 ### 2. Local Files
 
-Helper tool for installing local packages and archives using drag and drop.
+Tool for installing local packages and archives using drag and drop.
 
 Supported formats:
 
@@ -54,7 +51,7 @@ Supported formats:
 
 Features:
 
-- Drag and drop interface
+- Drag and drop
 - Automatic package detection
 - Guided installation workflow
 
@@ -62,13 +59,13 @@ Features:
 
 ### 3. Updates
 
-Centralized update management from multiple sources.
+Centralized update management.
 
 Features:
 
 - Available updates list
-- Changelog viewing
-- Batch update installation
+- No automatic updates
+- Simple Changelog
 - Supported repositories:
   - APT
   - Flathub
@@ -87,8 +84,13 @@ Features:
 - Debian or Debian-based distribution
 - Python 3.10+
 - PyQt6
-- Flatpak (for Flathub support)
+- Flatpak
 - APT package manager
+
+> [!NOTE]
+> If you dont have flathub installed app will crash or will not work correctly with flatpak, you can install it with
+> ```bash
+> sudo apt install flatpak
 
 ---
 
